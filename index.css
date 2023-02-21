@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: beige;
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 20px 20px;
+    border-bottom: 1px solid #c4c4c4;
+    background-color:white;
+}
+.logo {
+    width: 100px;
+}
+#main {
+    background: #EDEDED;
+    margin: 0;
+}
+.user-img {
+    width: 50px;
+    border-radius: 50%
+}
+
+.post {
+    margin-bottom: 70px;
+    background: white;
+}
+.post-img {
+    width: 100%
+}
+.post-header {
+    display: flex;
+}
+.post-details,
+.post-header {
+    padding: 15px;
+}
+.post-header p {
+    font-size: 14px;
+    margin: 0;
+    padding: 3px 10px;
+}
+.post-details p {
+    margin: 0;
+    font-size: 16px;
+    padding: 7px 0;
+}
+.action-icons {
+    padding-bottom: 7px;
+    font-size: 20px;
+}
+.icon {
+    width: 20px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+@media (min-width: 1000px) {
+    body {
+        margin: 0 400px;
+    }
+}
