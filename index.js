@@ -31,7 +31,7 @@ const posts = [
 const mainBody = document.getElementById("main");
 let text = "";
 
-for (i = 0; i < posts.length; i++) {
+for (let i = 0; i < posts.length; i++) {
     text += `<div class="post">
     <div class="post-header">
         <img src='${posts[i].avatar}' alt="Van Gogh Avatar" class="user-img">
